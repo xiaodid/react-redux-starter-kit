@@ -7,6 +7,8 @@ import { Provider } from 'react-redux'
 import { HashRouter } from 'react-router-dom'
 import { renderRoutes } from 'react-router-config'
 
+import './styles/main.scss'
+
 const store = createStore(window.__INITIAL_STATE__)
 const routes = require('./routes').default(store)
 
