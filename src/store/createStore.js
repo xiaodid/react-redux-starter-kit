@@ -1,6 +1,5 @@
 import { applyMiddleware, createStore } from 'redux'
 import thunk from 'redux-thunk'
-// import ajaxapi from '../middleware/ajax'
 
 import reducers from './reducers'
 

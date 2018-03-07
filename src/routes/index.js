@@ -1,5 +1,4 @@
 import React from 'react'
-// import { Redirect } from 'react-router-dom'
 import ROOT from '../components/root'
 import Dashboard from './dashboard'
 import Home from './home'

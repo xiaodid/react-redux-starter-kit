@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 import {renderRoutes} from 'react-router-config'
 
 class Dashboard extends Component {

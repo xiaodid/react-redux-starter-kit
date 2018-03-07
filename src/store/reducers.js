@@ -1,12 +1,8 @@
 import { combineReducers } from 'redux'
-// import core from '../modules/core'
-// import menu from '../modules/menu'
 
 export const reducers = (asyncReducers) => {
   return combineReducers({
     // Add sync reducers here
-    // core,
-    // menu,
     ...asyncReducers })
 }
 
