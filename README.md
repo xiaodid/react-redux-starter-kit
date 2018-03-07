@@ -2,7 +2,9 @@
 
 This project is based on [create-react-app](https://github.com/facebook/create-react-app) and [davezuko/react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit).
 
-Support react 16, react-router v4.
+Using react 16, react-router v4 to build pages.
+
+Override webpack configuration by using [react-app-rewired](https://github.com/timarney/react-app-rewired).
 
 The goal of this project is to provide a production-ready react development env. Making front-end development robust, easy and fun.
 
