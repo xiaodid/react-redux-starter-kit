@@ -1,8 +1,6 @@
 # React Redux Starter Kit
 
-This project is based on [create-react-app](https://github.com/facebook/create-react-app) and [davezuko/react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit).
-
-Using react 16, react-router v4 to build pages.
+This project is based on [create-react-app](https://github.com/facebook/create-react-app) and [davezuko/react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit), adding redux, react-router v4, code splitting.
 
 Override webpack configuration by using [react-app-rewired](https://github.com/timarney/react-app-rewired).
 
