@@ -23,23 +23,25 @@ module.exports = function override (config, env) {
 
   config.resolve.modules.push(path.join(__dirname, 'src'))
 
-  // set up common chunk
-  // modify entry
-  if (Array.isArray(config.entry)) {
-    config.entry = {
-      main: config.entry,
-      vendor: vendors
+  if (process.env.NODE_ENV !== 'development') {
+    // set up common chunk
+    // modify entry
+    if (Array.isArray(config.entry)) {
+      config.entry = {
+        main: config.entry,
+        vendor: vendors
+      }
+    } else {
+      config.entry.vendor = vendors
     }
-  } else {
-    config.entry.vendor = vendors
-  }
 
-  // add common chunk
-  config.plugins.push(
-    new webpack.optimize.CommonsChunkPlugin({
-      names: ['vendor']
-    })
-  )
+    // add common chunk
+    config.plugins.push(
+      new webpack.optimize.CommonsChunkPlugin({
+        names: ['vendor']
+      })
+    )
+  }
 
   return config
 }
