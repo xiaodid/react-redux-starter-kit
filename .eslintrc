@@ -9,16 +9,6 @@
   "env"     : {
     "browser" : true
   },
-  "globals" : {
-    "Action"       : false,
-    "__DEV__"      : false,
-    "__PROD__"     : false,
-    "__DEBUG__"    : false,
-    "__DEBUG_NEW_WINDOW__" : false,
-    "__BASENAME__" : false,
-    "__NOT_ENCRYPT__": false,
-    "__RUN_IN_ENV__": false
-  },
   "rules": {
     "semi" : [2, "never"],
     "max-len": [2, 1200, 2]
